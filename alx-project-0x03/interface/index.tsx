@@ -18,3 +18,5 @@ interface ButtonProps {
 interface LayoutProps {
   children: ReactNode;
 }
+
+export { PageRouteProps, ButtonProps, LayoutProps }
