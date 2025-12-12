@@ -20,6 +20,7 @@ export const CountProvider = ({ children }: { children: ReactNode}) => {
       {children}
     </CountContext.Provider>
   )
+   increment: () => void;", "decrement: () => void;
 }
 
 
